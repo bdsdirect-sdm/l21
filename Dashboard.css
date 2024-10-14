@@ -1,0 +1,70 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Center the container */
+}
+
+.dashboard-title {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+    /* Underline the title */
+    padding-bottom: 10px;
+}
+
+.user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.user-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 20px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    /* Smooth transition */
+    text-align: left;
+}
+
+.user-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    /* Lift effect on hover */
+}
+
+.user-name {
+    font-size: 20px;
+    color: #4CAF50;
+    margin: 0 0 10px;
+}
+
+.user-info {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loading-message {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
